@@ -8,4 +8,3 @@ Our work describes how the in-game toxic language shared task has been establish
 In addition, we propose and introduce the model/framework for toxic language token tagging (slot filling) from the in-game chat.
 
 <img width="973" alt="image" src="https://github.com/Yuanzhe-Jia/In-game-Toxic-Language-Detection/assets/104203996/c7c27209-0512-4664-af01-8cb11cd9da6a">
-
