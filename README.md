@@ -12,7 +12,7 @@ This project introduces the best-preforming model for the in-game toxic language
 - **BiLSTM** performs feature extraction on the input data in sequence.
 - **Attention Residual** aims to understand the global information and find the main ideas of the input utterance. 
 - **Label Forcing** enhances the feature representation to form the emission scores of the CRF layer.
-- **CRF** enables the model to enforce valid tag transitions and prevents locally optimal but globally inconsistent predictions.
+- **CRF** enforces valid tag transitions and prevents locally optimal but globally inconsistent predictions.
 
 ## Dataset
 
