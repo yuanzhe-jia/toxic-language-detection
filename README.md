@@ -16,7 +16,7 @@ This project introduces the best-preforming model for the in-game toxic language
 
 ## Dataset
 
-Using the CONDA dataset with 6 slot labels:
+The CONDA dataset used in this project comprises 44,869 player chat utterances, derived from chat logs of 1,921 Dota 2 matches and annotated with the following six distinct slot labels:
 - **T**: Toxicity
 - **C**: Character
 - **D**: Dota-specific
