@@ -1,17 +1,15 @@
 # Toxic Language Detection
 
 **Abstract.**
-In-game toxic language becomes the hot potato in the gaming industry and community. 
-There have been several online game toxicity analysis frameworks and models proposed. 
-However, it is still challenging to detect toxicity due to the nature of in-game chat, which has extremely short length. 
-To address this, the project introduces the best model for toxic language token tagging (slot filling) from the real-world in-game chat data. 
-
+In-game toxic language has emerged as a critical concern in the gaming industry and community. 
+While several frameworks and models for online game toxicity analysis have been proposed, detecting toxicity in player chat utterances remains a formidable challenge: stemming not only from the extremely short length of such utterances but also from the heavy reliance on game slang, abbreviations, and domain-specific jargon, which generic language models are poorly suited to recognize. 
+This project introduces the best-preforming model for the in-game toxic language detection from the real-world in-game chat data. 
 ![BRAR Architecture](image/brar.png)
 
 ## Model
 
 **BRAR (Bi-directional Representations with Attention Residuals)** integrates:
-- Bi-LSTM for feature extraction
+- BiLSTM for feature extraction
 - Attention residuals for global information
 - Label forcing for prediction enhancement
 - CRF for sequence labeling
